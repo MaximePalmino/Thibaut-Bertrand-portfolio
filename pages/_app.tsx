@@ -8,7 +8,7 @@ import gsap from 'gsap';
 
 function MyApp({ Component, pageProps }: AppProps) {
 
-  // gsap.registerPlugin(ScrollTrigger);
+  gsap.registerPlugin(ScrollTrigger);
 
   const [loader, setLoader] = useState<Boolean>(true)
 

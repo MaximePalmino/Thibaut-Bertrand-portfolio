@@ -2,7 +2,6 @@ import styles from '../Header/Header.module.scss'
 import gsap from 'gsap'
 import { useEffect, useRef } from 'react'
 
-
 const Header: React.FC = () => {
 
     const title = useRef(null)
@@ -10,7 +9,7 @@ const Header: React.FC = () => {
 
     useEffect(() => {
 
-        gsap.fromTo(title.current, {y:20, opacity:0}, {y:0, opacity:1, duration: 1})
+        gsap.fromTo(title.current, {y:20, opacity:0}, {y:0, opacity:1, duration: 1, delay:0})
         gsap.fromTo(description.current, {y:20, opacity:0}, {y:0, opacity:1, duration: 1, delay: 0.2})
 
     })

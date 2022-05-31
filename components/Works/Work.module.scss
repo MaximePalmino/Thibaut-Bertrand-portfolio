@@ -1,6 +1,7 @@
 .container {
 
 width: 100%;
+transition: all .2 ease-out;
 
     .card {
         img {
@@ -8,7 +9,8 @@ width: 100%;
             height: 35em;
             border-radius: 8px;
             object-fit: cover;
-
+            transition: all .2 ease-out;
+ 
         }
 
 
